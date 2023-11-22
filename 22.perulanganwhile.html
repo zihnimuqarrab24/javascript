@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>perulangan while</title>
+</head>
+<body>
+    <script>
+        var ulangi = confirm("Tekan Oke untuk mengulang");
+        var counter = 0;
+
+        while(ulangi){
+            var jawab = confirm("Tekan Oke untuk mengulang");
+            counter++;
+            if(jawab == false){
+                ulangi = false;
+            }
+        }
+        
+    </script>document.write("Perulangan sudah dilakukan sebanyak "+ counter +" kali");
+</body>
+</html>
